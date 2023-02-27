@@ -1,0 +1,27 @@
+.blogContainer {
+  max-width: 600px;
+  width: 100vw;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.blogContainer p {
+  margin: 1rem auto;
+}
+
+.blogImage {
+  width: 100%;
+  height: auto;
+}
+
+.medium {
+  width: 50%;
+}
+
+.small {
+  width: 25%;
+}
+
+.center {
+  margin: 0 auto;
+}

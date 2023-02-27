@@ -1,0 +1,23 @@
+.header {
+  height: 40px;
+  background-color: azure;
+}
+
+.main {
+}
+
+.container {
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  width: 100vw;
+  padding: 1rem;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
