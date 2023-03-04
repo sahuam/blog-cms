@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import styles from "@/styles/edit-blog.module.css";
 import EditBlog from "@/components/dashboard/contents/blog/EditBlog";
 
-async function getServerSideProps() {
+export async function getServerSideProps() {
   const { data } = await axios.get("http://localhost:3000/api/blogs");
   return {
     props: {
-      blog: data,
+      blog: data[0],
     },
   };
 }

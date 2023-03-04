@@ -10,9 +10,13 @@ function CustomElement(type) {
 }
 
 CustomElement.prototype = {
-  setElements: function (...elements) {
-    this.elements(...this.elements, ...elements);
+  isCustom: true,
+  setElements: function (element) {
+    this.elements = [...this.elements, element];
     return this;
+  },
+  getElementUI: function () {
+    return <div>{this.elements.map((element) => element.getElement())}</div>;
   },
 };
 
