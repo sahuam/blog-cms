@@ -1,5 +1,5 @@
 import Head from "next/head";
-import BlogCards from "@/components/BlogCard";
+import BlogCards from "@/components/blogs/BlogCard";
 import styles from "@/styles/blog-card.module.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
